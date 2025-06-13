@@ -10,7 +10,14 @@ body {
     margin: auto;
     background-color: rgb(244, 232, 217);
     overflow: visible;
+    margin-bottom: 100px;
 }
+
+.plates {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 h1 {
     width: 100%;
@@ -34,17 +41,25 @@ h3 {
     padding: 25px;
     width: 220px;
     text-align: center;
-    margin: 35px;
-    outline: 3px dotted rgb(0, 0, 0);
+    width: 300px;
 }
 
-#recipes {
-    list-style-type: none;
-    display:inline-block;
+.recipe-container a {
+    background-color: rgba(244, 232, 217, 0.8);
+    padding: 10px;
+    border-radius: 15px;
+    outline: 1px solid rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 15px;
 }
 
 .recipe-container {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
+    position: absolute;
+    width: 1000px;
+    margin-top: 110px;
 }
 
 .block {
@@ -92,10 +107,11 @@ li {
 }
 
 .home {
-    padding-bottom: 50px;
+    margin-bottom: 50px;   
+    padding: 25px;
 }
 
 p {
-    padding: 20px;
+    padding: 10px;
     margin-left: 10px;
 }
