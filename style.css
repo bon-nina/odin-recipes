@@ -51,6 +51,11 @@ h3 {
     outline: 1px solid rgb(0, 0, 0);
     text-decoration: none;
     font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.recipe-container a:hover {
+    text-decoration: underline;
 }
 
 .recipe-container {
