@@ -1,0 +1,101 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(244, 232, 217);
+    overflow: visible;
+}
+
+h1 {
+    width: 100%;
+    border-radius: 35px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 15px 0px;
+    background-color: rgb(129, 177, 162);
+}
+
+h2 {
+    padding: 25px;
+    width: 220px;
+    text-align: center;
+    margin: 15px;
+    outline: 3px dotted rgb(0, 0, 0);
+}
+
+h3 {
+    padding: 25px;
+    width: 220px;
+    text-align: center;
+    margin: 35px;
+    outline: 3px dotted rgb(0, 0, 0);
+}
+
+#recipes {
+    list-style-type: none;
+    display:inline-block;
+}
+
+.recipe-container {
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photo {
+    text-align: center;
+    position: relative;
+    width: max-content;
+    margin: 60px 0px;
+}
+
+.photo p {
+    padding: 10px;
+}
+
+ul {
+    display:block;
+    padding: 20px;
+    margin: auto;
+}
+
+ol {
+    display: block;
+    margin: auto;
+    margin-left: -70px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+li {
+    max-width: 600px;
+    margin-top: 15px;
+    margin: auto;
+    padding: 5px;
+
+}
+
+.ingredigents {
+    display: flex;
+    justify-content: row;
+}
+
+.home {
+    padding-bottom: 50px;
+}
+
+p {
+    padding: 20px;
+    margin-left: 10px;
+}
